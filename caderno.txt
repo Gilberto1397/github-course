@@ -27,3 +27,14 @@ Ciclo de vida dos estados dos arquivos
 
     a cada att no arquivo dentro do git é necessário novo commit
     mas antes é necessário adicionar git add nomeDoArquivo.extensao
+
+10. Visualizando logs
+    -git log / mostra informações a respeito dos commits    
+    -git log --decorate / traz outras informações como a brach usada
+    -git log --author="nome" / irá trazer os commits de um autor específico
+    -git shortlog / irá trazer uma relação de commits por pessoa, apenas
+    -git shortlog -sn / nome da pessoa e o n° de commits dela
+
+    -git diff   /   permiti visualizar oq foi editado antes de commitar / MUITO IMPORTANTE DAR ESSA CONFERIDA ANTES DO COMMIT
+    -git diff --name--only / irá mostrar apenas o nome do arquivo modificado
+    -git commit -am "comentário"    /   permiti comitar arquivo ja adicionado anteriormente
