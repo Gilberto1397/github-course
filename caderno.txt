@@ -1,0 +1,24 @@
+Gerenciar diferentes versões de documentos
+o git trabalha com os estados dos arquivos, outros sistemas trabalham com diferenças entre os arquivos
+
+config de usuário
+
+git config --global user.name "Nome de Usuario"
+
+git config --global user.email "email"
+
+git config --global core.editor code .  /   para editar editor padrão
+
+git config user.name    /   traz a informação da chave de nome
+    Exemplo para ser usado com outras chaves
+
+
+Ciclo de vida dos estados dos arquivos
+    untracked: está no repositório mas ainda não é visto no git
+    unmodified: existe no git mas não houve alteração
+    modified: quando vc modifica o arquivo
+    staged: quando é feito o versionamento
+
+
+    git status: mostrando a situação do repositório
+        att
