@@ -22,3 +22,8 @@ Ciclo de vida dos estados dos arquivos
 
     git status: mostrando a situação do repositório
         att
+
+    git commit -m irá dar o snapshot no code
+
+    a cada att no arquivo dentro do git é necessário novo commit
+    mas antes é necessário adicionar git add nomeDoArquivo.extensao
