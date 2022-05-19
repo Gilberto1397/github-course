@@ -73,3 +73,7 @@ git push -u origin
 
 --Para atualizar no repository
     git push origin master  /   origin:repo no github - master:branch
+
+ Clonando repositórios remotos
+    -endereço ssh é mais rápido
+    -git clone git@github.com:Gilberto1397/github-course.git NovoDiretórioSeQuiserCriar    
