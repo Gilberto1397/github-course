@@ -77,3 +77,18 @@ git push -u origin
  Clonando repositórios remotos
     -endereço ssh é mais rápido
     -git clone git@github.com:Gilberto1397/github-course.git NovoDiretórioSeQuiserCriar    
+
+
+FALADO A RESPEITO DO FORK
+    PERMITI COPIR REPOS E ENTÃO DAR PULL REQUEST, ENQUANTO O CLONE N DEIXA DAR PULL OU CLONAR SEM A DEVIDA AUTORIZAÇÃO
+
+BRANCHS 
+    git checkout -b NomeBranch  /   cria uma branch
+    git branch  /   mostra as branchs disponíveis
+
+    21. Movendo e deletando branches
+        git checkout NomeBranch  /   serve para trocar para uma branch existente    SEM O -B
+
+        git branch -D NomeBranch    /   apaga a branch
+
+    MERGE / UNIÃO DOS BRANCHS        
