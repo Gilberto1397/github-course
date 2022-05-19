@@ -53,5 +53,6 @@ Desfazendo coisas
         -git reset --mixed / matar o commit e volta os arquivos pra antes de staged, porém com os arquivos ainda ali
 
         -git reset --hard   /   tudo relaciondo ao commit será ignorado, commit, staged e novos arquivos
+            -CUIDAR AO USAR HARD PARA NÃO DAR CONFLITO NO REPOSITÓRIO
 
         PARA ESSES COMANDO É NECESSÁRIO USAR A HASH DO COMMIT ANTERIOR AO QUE QUEREMOS ESQUECER
