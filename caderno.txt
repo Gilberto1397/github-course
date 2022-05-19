@@ -38,3 +38,7 @@ Ciclo de vida dos estados dos arquivos
     -git diff   /   permiti visualizar oq foi editado antes de commitar / MUITO IMPORTANTE DAR ESSA CONFERIDA ANTES DO COMMIT
     -git diff --name--only / irá mostrar apenas o nome do arquivo modificado
     -git commit -am "comentário"    /   permiti comitar arquivo ja adicionado anteriormente
+
+Desfazendo coisas
+    
+        
